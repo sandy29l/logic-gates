@@ -28,6 +28,7 @@ Figure -01 HALF ADDER
 Figure -02 FULL ADDER
 
 Procedure
+
 Connect the supply (+5V) to the circuit Switch ON the main switch If the output is 1, then the led glows.
 
 Program:
