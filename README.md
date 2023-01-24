@@ -34,13 +34,13 @@ Developed by: santhosh L
 RegisterNumber: 22008479
 
 Half Adder Verilog Code:
-
 module half_adder(a, b, s, c);
 input a, b;
 output s, c;
 xor(s, a, b);
 and(c, a, b);
 endmodule
+
 
 Full Adder Verilog Code:
 
