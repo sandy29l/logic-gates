@@ -34,16 +34,17 @@ Developed by: santhosh L
 RegisterNumber: 22008479
 
 Half Adder Verilog Code:
+```
 module half_adder(a, b, s, c);
 input a, b;
 output s, c;
 xor(s, a, b);
 and(c, a, b);
 endmodule
-
+```
 
 Full Adder Verilog Code:
-
+```
 module full_adder(x, y, z, s, c, x1, x2, x3, x4);
 input x, y, z;
 output s, c, x1, x2, x3, x4;
@@ -53,7 +54,7 @@ and(x3, x, y);
 and(x4, x1, z);
 or(c, x3, x4);
 endmodule
-
+```
 Logic symbol & Truthtable RTL realization
 
 Output:
